@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-// import {SiHtml5, SiCss3, SiJavascript, SiReact, SiGithub, SiBootstrap, SiCplusplus, SiJquery} from 'react-icons/si';
-// import {FaSass, FaGitAlt} from 'react-icons/fa';
+import {SiHtml5, SiCss3, SiJavascript, SiReact, SiGithub, SiBootstrap, SiCplusplus, SiJquery} from 'react-icons/si';
+import {FaSass, FaGitAlt} from 'react-icons/fa';
 
 class Skills extends Component {
     render() {
@@ -13,7 +13,7 @@ class Skills extends Component {
                         </div>
 
                         <div className="skills">
-                            {/* <div className="skills-item">
+                            <div className="skills-item">
                                 <SiHtml5 /><span>HTML5</span>
                             </div>
 
@@ -51,7 +51,7 @@ class Skills extends Component {
                             
                             <div className="skills-item">
                                 <FaGitAlt /><span>Git</span>
-                            </div> */}
+                            </div>
                         </div>
                   </div>
               </section>
