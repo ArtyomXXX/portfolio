@@ -1,0 +1,21 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px 30px;
+
+    padding: 20px;
+    
+    color: #ffffff;
+    text-align: center;
+}
+
+.skills-item {
+    width: 150px;
+    height: auto;
+    font-size: clamp(40px, 5vw, 60px);
+    span {
+        display: block;
+        font-size: clamp(20px, 5vw, 30px);
+    }
+}

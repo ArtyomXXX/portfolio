@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// import i18next from 'i18next';
+// import {useTranslation} from 'react-i18next';
+// import './App.css';
+// import useLocalStorage from './hooks/use-localstorage';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// function App() {
+//   const {t} = useTranslation();
+//   const [language, setLanguage] = useLocalStorage('language', 'ru')
 
-export default App;
+//   const handleLanguageChange = () => {
+//     if(language === 'en') {
+//       i18next.changeLanguage('ru');
+//       setLanguage('ru')
+//     }
+//     else if(language === 'ru') {
+//       i18next.changeLanguage('en');
+//       setLanguage('en')
+//     }
+//   }
+
+//   return (
+//     <div className="App">
+//         <h1>{t('About Me')}</h1>
+//         <br />
+//         <button onClick={handleLanguageChange}>{t('change to')} {language === 'ru' ? t('english') : t('russian')}</button>
+//         <button className='reload' onClick={() => window.location.reload()}>{t('refresh page')}</button>
+//     </div>
+//   );
+// }
+
+// export default App;

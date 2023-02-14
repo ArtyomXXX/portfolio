@@ -1,0 +1,73 @@
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-item {
+  width: 50%;
+}
+
+.about-content {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about__box {
+  height: 500px;
+  width: 400px;
+  max-width: 500px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, right top, from(#4facfe), to(#00f2fe));
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  border: 10px solid #fff;
+  -webkit-box-shadow: 2px 5px 10p rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 5px 10p rgba(0, 0, 0, 0.5);
+  -webkit-animation: ava-animate 5s infinite alternate;
+          animation: ava-animate 5s infinite alternate;
+}
+
+.about__box-img {
+  -webkit-animation: ava-bg 3s infinite alternate;
+          animation: ava-bg 3s infinite alternate;
+}
+
+@-webkit-keyframes ava-animate {
+  0% {
+    border-radius: 27% 73% 48% 52%/17% 38% 62% 83%;
+  }
+  40% {
+    border-radius: 61% 39% 69% 31%/51% 59% 41% 49%;
+  }
+  60% {
+    border-radius: 40% 60% 23% 77%/24% 49% 51% 76%;
+  }
+  100% {
+    border-radius: 28% 72% 56% 44%/71% 26% 74% 29%;
+  }
+}
+
+@keyframes ava-animate {
+  0% {
+    border-radius: 27% 73% 48% 52%/17% 38% 62% 83%;
+  }
+  40% {
+    border-radius: 61% 39% 69% 31%/51% 59% 41% 49%;
+  }
+  60% {
+    border-radius: 40% 60% 23% 77%/24% 49% 51% 76%;
+  }
+  100% {
+    border-radius: 28% 72% 56% 44%/71% 26% 74% 29%;
+  }
+}

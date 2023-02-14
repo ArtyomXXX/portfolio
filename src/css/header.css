@@ -1,0 +1,154 @@
+.header {
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-brand {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: fantasy;
+}
+.header-brand a {
+  width: 100%;
+  padding: 0 10px;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-right: 3px solid #BB9A60;
+  border-left: 3px solid #BB9A60;
+  -webkit-animation: header-brand 5s 1;
+          animation: header-brand 5s 1;
+}
+
+@-webkit-keyframes header-brand {
+  0% {
+    color: #000000;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-color: #000000;
+    border-color: #000000;
+    position: relative;
+    top: 0;
+    left: -200px;
+  }
+  30% {
+    border-top: transparent;
+    border-bottom: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  85% {
+    border-top: transparent;
+    border-bottom: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes header-brand {
+  0% {
+    color: #000000;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-color: #000000;
+    border-color: #000000;
+    position: relative;
+    top: 0;
+    left: -200px;
+  }
+  30% {
+    border-top: transparent;
+    border-bottom: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  85% {
+    border-top: transparent;
+    border-bottom: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+  -webkit-animation: nav-on 5s 1;
+          animation: nav-on 5s 1;
+}
+.nav-link:hover {
+  color: #BB9A60;
+  border-color: #BB9A60;
+}
+
+@-webkit-keyframes nav-on {
+  0% {
+    color: #000000;
+    position: relative;
+    top: 0;
+    right: -100px;
+  }
+  30% {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  85% {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}
+
+@keyframes nav-on {
+  0% {
+    color: #000000;
+    position: relative;
+    top: 0;
+    right: -100px;
+  }
+  30% {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  85% {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}

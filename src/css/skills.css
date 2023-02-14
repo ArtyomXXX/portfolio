@@ -1,0 +1,24 @@
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 50px 30px;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.skills-item {
+  width: 150px;
+  height: auto;
+  font-size: clamp(40px, 5vw, 60px);
+}
+.skills-item span {
+  display: block;
+  font-size: clamp(20px, 5vw, 30px);
+}
