@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+// import MyPhoto from '../Images/2023-02-15 01.21.26.jpg'
 
 class About extends Component {
     render() {
@@ -14,26 +15,26 @@ class About extends Component {
                                  <img className="about__box-img" alt="man" />
                             </div>
                             <div className="about-item about-content">
-                                 Я начинающий Frontend разработчик без коммерческого опыта работы.
-                                 Занимаюсь разработкой веб-сайтов и веб-приложений.
+                                 I am a beginner Frontend developer with no commercial experience. 
+                                 I am developing websites and web applications.
                                  <br />
                                  <br />
-                                 <span style={{fontSize:"25px"}}>Качества: </span>
-                                 Целеустремлённый и высокомотивированный, способный адаптироваться 
-                                 к новым условиям. Благодаря моим личным качествам, таким как коммуникабельность и 
-                                 надёжность, я могу хорошо работать в команде. Я организован, ответственен, 
-                                 внимателен к деталям, что, на мой взгляд, способствует успешному управлению обязанностями.
+                                 <span style={{fontSize:"25px"}}>Qualities: </span>
+                                 Purposeful and highly motivated, able to adapt to new conditions. 
+                                 Thanks to my personal qualities, such as communication skills and reliability, 
+                                 I can work well in a team. I am organized, responsible, attentive to details, 
+                                 which, in my opinion, contributes to the successful management of duties.
                                  <br />
                                  <br />
-                                 <span style={{fontSize:"25px"}}>Образование: </span>
-                                 Бакалавр
+                                 <span style={{fontSize:"25px"}}>Education: </span>
+                                 Bachelor
                                  <br />
-                                 РАУ - Российско-Армянский Университет
+                                 RAU - Russian-Armenian University
                                  <br />
-                                 Факультет: Прикладной математики и информатики
+                                 Faculty: Applied Mathematics and Informatics
                                  <br />
                                  <br />
-                                 <span style={{fontSize:"25px"}}>Хобби: </span> Музыка, Книги, Спорт.
+                                 <span style={{fontSize:"25px"}}>Hobby: </span> Music, Books, Sports.
                             </div>
                         </div>
                    </div>

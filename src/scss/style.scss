@@ -27,7 +27,12 @@
     .project-item {
         width: 100%;
         text-align: center;
+        padding: 0;
         margin-bottom: 50px;
+    }
+
+    .project-filled {
+        text-align: left;
     }
 }
 
@@ -184,26 +189,20 @@ z-index: -1;
      @keyframes home-title {
          0%{
              color: #000000;
-             margin-bottom: -40px;
-
-             position: absolute;
-             top: 0;
+             margin-left: -100px;
          }
 
          30%{
-            position: absolute;
-            top: 0;
-             margin-bottom: -40px;
+             margin-left: 0;
          }
          85%{
-            position: absolute;
-            top: 0;
-             margin-bottom: -40px;
+            color: #fffefe;
+             margin-left: 0;
          }
      }
 
 
     .section {
-        margin-top: 100px;
+        margin-top: 50px;
      }
  }
