@@ -1,0 +1,49 @@
+@use '../../scssCommonFile/mixins.scss' as style;
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    @include style.card-style;
+
+    &__content {
+        width: 50%;
+        padding: 0 15px;
+    }
+    &__stack {
+        margin-bottom: 30px;
+    }
+    &__description {
+        margin-bottom: 50px;
+    }
+    &__img {
+        width: 100%;
+        height: 250px;
+        border: 2px solid #808080;
+    }
+}
+
+.deploy-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(135deg, #0c416d 10%, #60aabb 40%, #6d3eda 80%);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    &:hover {
+        background-image: linear-gradient(135deg, #2c6d0c 10%, #3ae3a2 40%, #30ae54 80%);
+    }
+}
+.source-btn {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+    border-bottom: 2px solid transparent;
+    &:hover {
+        border-color: #ffffff;
+    }
+}

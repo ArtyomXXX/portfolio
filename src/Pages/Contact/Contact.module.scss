@@ -1,0 +1,33 @@
+.contact > p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.contact__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__item {
+    width: 50%;
+    &>ul { //Список: контакты, резюме
+        h2 {margin-bottom: 5px; font-size: 30px;}
+        li {
+            margin-bottom: 10px;
+            font-size: 18px;
+            &>a {
+                text-decoration: underline;
+            }
+        }
+    }
+    &>img {width: 400px; height: auto;} // 3Д персонаж
+    &:last-child { // Фон 3Д персонажа
+        text-align: center;
+        background-image: linear-gradient(135deg, #0c416d 10%, #60aabb 40%, #6d3eda 80%);
+        box-shadow: inset 0 5px 100px 5px blue;
+        border-radius: 50%;
+    }
+}
