@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/business-card/static/css/main.4de06a34.css",
-    "main.js": "/business-card/static/js/main.73cb0147.js",
+    "main.css": "/business-card/static/css/main.e0400f6a.css",
+    "main.js": "/business-card/static/js/main.a32e8cd6.js",
     "static/js/787.bc412fff.chunk.js": "/business-card/static/js/787.bc412fff.chunk.js",
     "static/media/Home-bg_video.mp4": "/business-card/static/media/Home-bg_video.b8fb85e68b759f140e21.mp4",
-    "static/media/MoGo-img.jpg": "/business-card/static/media/MoGo-img.8bcae0d947dff1eae0ea.jpg",
+    "static/media/3dCharacter.png": "/business-card/static/media/3dCharacter.1a987e7b66153fed6d9f.png",
+    "static/media/Comments.jpeg": "/business-card/static/media/Comments.dfb3710832eaf103ec7e.jpeg",
+    "static/media/Conquest.jpeg": "/business-card/static/media/Conquest.3bd8f3392a3a32834353.jpeg",
+    "static/media/MoGo.jpg": "/business-card/static/media/MoGo.8bcae0d947dff1eae0ea.jpg",
+    "static/media/photo.jpg": "/business-card/static/media/photo.daa8bc857969cbc71590.jpg",
+    "static/media/GithubSearch.jpeg": "/business-card/static/media/GithubSearch.ca5c289df2c41e9f4f4a.jpeg",
     "index.html": "/business-card/index.html",
-    "main.4de06a34.css.map": "/business-card/static/css/main.4de06a34.css.map",
-    "main.73cb0147.js.map": "/business-card/static/js/main.73cb0147.js.map",
+    "main.e0400f6a.css.map": "/business-card/static/css/main.e0400f6a.css.map",
+    "main.a32e8cd6.js.map": "/business-card/static/js/main.a32e8cd6.js.map",
     "787.bc412fff.chunk.js.map": "/business-card/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4de06a34.css",
-    "static/js/main.73cb0147.js"
+    "static/css/main.e0400f6a.css",
+    "static/js/main.a32e8cd6.js"
   ]
 }
