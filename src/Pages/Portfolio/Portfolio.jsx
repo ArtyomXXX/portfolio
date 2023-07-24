@@ -39,7 +39,7 @@ function Portfolio() {
                             <div className={styles["project"]}>
                                 <div className={styles["project__content"]}>
                                     <h2 className={styles["project__title"]}>Лэндинг Conquest</h2>
-                                    <p className={styles["project__stack"]}>Стек технологий: HTML5 + SCSS + JavaScript</p>
+                                    <p className={styles["project__stack"]}>Стек технологий: HTML5 + SCSS + JavaScript + Gulp</p>
                                     <p className={styles["project__description"]}>
                                         Описание проекта: Проект реализован на чистом JavaScript и представляет собой
                                         Landing Page с простым дизайном. В проекте, помимо классической адаптивной верстки,

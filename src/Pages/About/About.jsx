@@ -14,20 +14,16 @@ function About() {
                             <img className={styles["about__box-img"]} src={Photo} alt="man" />
                     </div>
                     <div className={styles["about__content"]}>
-                            Я начинающий Frontend-разработчик без коммерческого опыта работы.
+                            <h1>Амбарцумян Артём</h1>
+                            <h2>Junior Frontend-разработчик</h2>
                             <br />
                             <br />
-                            <span style={{fontSize:"25px"}}>Qualities: </span>
+                            <p><span>Образование:</span> Бакалавр</p>
+                            <p>РАУ - Российско-Армянский Университет</p>
+                            <p>Факультет: Прикладная математика и информатика</p>
                             <br />
                             <br />
-                            <span style={{fontSize:"25px"}}>Образование:</span> бакалавр
-                            <br />
-                            РАУ - Российско-Армянский Университет
-                            <br />
-                            Факультет: Прикладная математика и информатика
-                            <br />
-                            <br />
-                            <span style={{fontSize:"25px"}}>Хобби:</span> музыка, книги, спорт.
+                            <p><span>Хобби:</span> музыка, книги, спорт.</p>
                     </div>
                 </div>
             </div>
