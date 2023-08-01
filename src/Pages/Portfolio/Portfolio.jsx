@@ -27,7 +27,7 @@ function Portfolio() {
                                     
                                     <div>
                                         <a href="https://artyomxxx.github.io/MOGO/" className={styles["deploy-btn"]} target="blank">Посмотреть</a>
-                                        <a href="https://github.com/ArtyomXXX/MOGO" className={styles["source-btn"]} target="blank">Перейти в репозиторий GitHub</a>
+                                        <a href="https://github.com/ArtyomXXX/MOGO" className={styles["source-btn"]} target="blank">Перейти в GitHub</a>
                                     </div>
                                 </div>
 
@@ -47,7 +47,7 @@ function Portfolio() {
                                     </p>
                                     <div>
                                         <a href="https://artyomxxx.github.io/Conquest/" className={styles["deploy-btn"]} target="blank">Посмотреть</a>
-                                        <a href="https://github.com/ArtyomXXX/Conquest" className={styles["source-btn"]} target="blank">Перейти в репозиторий GitHub</a>
+                                        <a href="https://github.com/ArtyomXXX/Conquest" className={styles["source-btn"]} target="blank">Перейти в GitHub</a>
                                     </div>
                                 </div>
 
@@ -58,7 +58,7 @@ function Portfolio() {
 
                             <div className={styles["project"]}>
                                 <div className={styles["project__content"]}>
-                                    <h1 className={styles["project__title"]}>Страница с комментариями</h1>
+                                    <h1 className={styles["project__title"]}>Страница <nobr>с комментариями</nobr></h1>
                                     <p className={styles["project__stack"]}>Стек технологий: HTML5 + SCSS + JavaScript</p>
                                     <p className={styles["project__description"]}>
                                         Описание проекта: Проект представляет собой страницу блога с возможностью комментирования,
@@ -69,7 +69,7 @@ function Portfolio() {
                                     </p>
                                     <div>
                                         <a href="https://artyomxxx.github.io/Comments/" className={styles["deploy-btn"]} target="blank">Посмотреть</a>
-                                        <a href="https://github.com/ArtyomXXX/Comments" className={styles["source-btn"]} target="blank">Перейти в репозиторий GitHub</a>
+                                        <a href="https://github.com/ArtyomXXX/Comments" className={styles["source-btn"]} target="blank">Перейти в GitHub</a>
                                     </div>
                                 </div>
 
@@ -85,7 +85,7 @@ function Portfolio() {
                                     
                                     <div>
                                         <a href="https://artyomxxx.github.io/Github-repos-search/" className={styles["deploy-btn"]} target="blank">Посмотреть</a>
-                                        <a href="https://github.com/ArtyomXXX/Github-repos-search" className={styles["source-btn"]} target="blank">Перейти в репозиторий GitHub</a>
+                                        <a href="https://github.com/ArtyomXXX/Github-repos-search" className={styles["source-btn"]} target="blank">Перейти в GitHub</a>
                                     </div>
                                 </div>
 

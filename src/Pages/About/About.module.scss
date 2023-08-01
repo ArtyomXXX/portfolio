@@ -3,26 +3,18 @@
 .about {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
     @include style.card-style;
 
-    &__item, &__box, &__content {
-        width: 50%;
-    }
     &__content {
-        line-height: 1.5;
-        & > h1 {
-            font-size: 35px;
-        }
-        & > h2 {
-            font-size: 25px;
-        }
-        & > p {
-            font-size: 18px;
-        }
+        margin-left: 20px;
+        line-height: 1.3;
+        & > h1 {font-size: clamp(10px, 5vw, 35px);}
+        & > h2 {font-size: clamp(10px, 5vw, 25px);}
+        & > p {font-size: clamp(10px, 5vw, 18px);}
     }
-    &__box {
+    &__img {
         justify-self: center;
         overflow: hidden;
         width: 400px;
@@ -33,13 +25,13 @@
         border: 10px solid #fff;
         box-shadow: 2px 5px 10p rgba(0, 0, 0, 0.5);
         animation: ava-animate 5s infinite alternate;
+
+        & > img {
+            width: 400px;
+            height: 400px;
+            // animation: ava-bg 3s infinite alternate;
+        }
     }
-    &__box-img {
-        width: 400px;
-        height: 400px;
-        // animation: ava-bg 3s infinite alternate;
-    }
-    
 }
 
 @keyframes ava-animate {
@@ -71,3 +63,41 @@
 //         backdrop-filter: hue-rotate(90deg);
 //     }
 // }
+
+// Медия запрос__________________________________________________________________________
+
+// 1090px
+@media screen and (max-width: 1090px) {
+    .about {
+        justify-content: center;
+        align-items: normal;
+        padding: 20px 10px;
+
+        &__content {
+            padding: 0 10px;
+        }
+        &__img {
+            justify-content: center;
+            overflow: visible;
+            border: none;
+            box-shadow: none;
+            animation: none;
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+
+            & > img {
+                border-radius: 10%;
+                width: 100%;
+                height: 200px;
+             }
+        }
+    }
+}
+// 500px
+@media screen and (max-width: 500px) {
+    .about__content {
+        margin-left: 0;
+        padding: 0;
+    }
+}

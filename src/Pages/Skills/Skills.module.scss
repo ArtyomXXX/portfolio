@@ -12,10 +12,22 @@
     &__item {
         width: 150px;
         height: auto;
-        font-size: clamp(40px, 5vw, 60px);
+        font-size: clamp(30px, 5vw, 60px);
         span {
             display: block;
-            font-size: clamp(20px, 5vw, 30px);
+            font-size: clamp(10px, 5vw, 30px);
+        }
+    }
+}
+
+// Медия запрос__________________________________________________________________________
+
+@media screen and (max-width: 390px) {
+    .skills {
+        gap: 30px;
+        padding: 50px 10px;
+        &__item {
+            width: auto;
         }
     }
 }

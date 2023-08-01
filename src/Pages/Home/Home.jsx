@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Home.module.scss';
 import Home_bg_video from '../../Home-bg_video.mp4';
-import ScrollUp from '../../Components/ButtonScrollUp/ScrollUp';
+// import ScrollUp from '../../Components/ButtonScrollUp/ScrollUp';
 
 function Home() {
     return (
@@ -14,7 +14,7 @@ function Home() {
                         <h1 className={styles["home__title"]}>My name is Ambartsumyan Artyom</h1>
                         <h1 className={styles["home__subtitle"]}>I'm a Frontend Developer.</h1>
                     </div>
-                    <ScrollUp />
+                    {/* <ScrollUp /> */}
             </div>
         </main>
     );

@@ -10,20 +10,18 @@ function About() {
                     <h1 className="section__title">About Me</h1>
                 </div>
                 <div className={styles.about}>
-                    <div className={styles["about__box"]}>
-                            <img className={styles["about__box-img"]} src={Photo} alt="man" />
+                    <div className={styles["about__img"]}>
+                            <img src={Photo} alt="" />
                     </div>
                     <div className={styles["about__content"]}>
                             <h1>Амбарцумян Артём</h1>
                             <h2>Junior Frontend-разработчик</h2>
                             <br />
-                            <br />
                             <p><span>Образование:</span> Бакалавр</p>
                             <p>РАУ - Российско-Армянский Университет</p>
                             <p>Факультет: Прикладная математика и информатика</p>
-                            <br />
-                            <br />
-                            <p><span>Хобби:</span> музыка, книги, спорт.</p>
+                            {/* <br />
+                            <p><span>Хобби:</span> музыка, книги, спорт.</p> */}
                     </div>
                 </div>
             </div>

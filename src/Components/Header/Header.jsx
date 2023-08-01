@@ -30,19 +30,19 @@ function Header() {
                         </div>
                             <ul className={styles["nav"]}>
                                 <li className={styles["nav__item"]}>
-                                    <a className={styles["nav__link"]} href="#about">About me</a>
+                                    <a className={styles["nav__link"]} href="#about">Обо мне</a>
                                 </li>
 
                                 <li className={styles["nav__item"]}>
-                                    <a className={styles["nav__link"]} href="#skills">Skills</a>
+                                    <a className={styles["nav__link"]} href="#skills">Навыки</a>
                                 </li>
 
                                 <li className={styles["nav__item"]}>
-                                    <a className={styles["nav__link"]} href="#portfolio">Portfolio</a>
+                                    <a className={styles["nav__link"]} href="#portfolio">Портфолио</a>
                                 </li>
 
                                 <li className={styles["nav__item"]}>
-                                    <a className={styles["nav__link"]} href="#contact">Contact</a>
+                                    <a className={styles["nav__link"]} href="#contact">Контакты</a>
                                 </li>
                             </ul>
                             {/* <div className={styles["menu__burger-bg fs"]}></div> */}
