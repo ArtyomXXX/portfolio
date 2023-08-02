@@ -16,7 +16,7 @@ function Portfolio() {
                             <div className={styles.project}>
                                 <div className={styles["project__content"]}>
                                     <h2 className={styles["project__title"]}>MOGO</h2>
-                                    <p className={styles["project__stack"]}>Стек технологий: HTML5 + SCSS + JavaScript + JQuery</p>
+                                    <p className={styles["project__stack"]}>Стек: HTML5 + SCSS + JavaScript + JQuery</p>
                                     <p className={styles["project__description"]}>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis iaculis est,
                                         vitae tincidunt augue. Morbi gravida dolor est, placerat porta arcu porta ut.
@@ -39,7 +39,7 @@ function Portfolio() {
                             <div className={styles["project"]}>
                                 <div className={styles["project__content"]}>
                                     <h2 className={styles["project__title"]}>Лэндинг Conquest</h2>
-                                    <p className={styles["project__stack"]}>Стек технологий: HTML5 + SCSS + JavaScript + Gulp</p>
+                                    <p className={styles["project__stack"]}>Стек: HTML5 + SCSS + JavaScript + Gulp</p>
                                     <p className={styles["project__description"]}>
                                         Описание проекта: Проект реализован на чистом JavaScript и представляет собой
                                         Landing Page с простым дизайном. В проекте, помимо классической адаптивной верстки,
@@ -59,7 +59,7 @@ function Portfolio() {
                             <div className={styles["project"]}>
                                 <div className={styles["project__content"]}>
                                     <h1 className={styles["project__title"]}>Страница <nobr>с комментариями</nobr></h1>
-                                    <p className={styles["project__stack"]}>Стек технологий: HTML5 + SCSS + JavaScript</p>
+                                    <p className={styles["project__stack"]}>Стек: HTML5 + SCSS + JavaScript</p>
                                     <p className={styles["project__description"]}>
                                         Описание проекта: Проект представляет собой страницу блога с возможностью комментирования,
                                         реализовнную на чистом JavaScript. Поля формы содержат базовую валидацию вводимых значений.
@@ -80,7 +80,7 @@ function Portfolio() {
                             <div className={styles["project"]}>
                                 <div className={styles["project__content"]}>
                                     <h1 className={styles["project__title"]}>Страница поиска репозиториев GitHub</h1>
-                                    <p className={styles["project__stack"]}>Стек технологий: HTML5 + SCSS + JavaScript</p>
+                                    <p className={styles["project__stack"]}>Стек: HTML5 + SCSS + JavaScript</p>
                                     <p className={styles["project__description"]}>There is nothing here yet</p>
                                     
                                     <div>

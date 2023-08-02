@@ -14,17 +14,17 @@
         left: 0;
     }
     &__title {
-       font-size: clamp(5px, 4vw, 40px);
+       font-size: clamp(15px, 5vw, 40px);
        font-weight: 900;
-       margin-bottom: 20px;
+    //    margin-bottom: 20px;
        position: relative;
        animation: home-title 3s 1;
     }
-    &__subtitle {
-        font-size: clamp(5px, 4vw, 30px);
-        font-weight: 900;
-        animation: home-subtitle 3s 1;
-    }
+    // &__subtitle {
+    //     font-size: clamp(15px, 3vw, 30px);
+    //     font-weight: 900;
+    //     animation: home-subtitle 3s 1;
+    // }
  }
  
  .holder {
@@ -46,29 +46,30 @@
  @keyframes home-title {
      0%{
         color: #000000;
-        margin-bottom: -40px;
      }
      30%{
-        letter-spacing: 25px;
-        margin-bottom: -40px;
+        color: #ffffff;
+        letter-spacing: 55px;
      }
      85%{
+        color: #ffffff;
         letter-spacing: 5px;
-        margin-bottom: -40px;
      }
  }
  
- @keyframes home-subtitle {
-     0%{
-        color: transparent;
-     }
+//  @keyframes home-subtitle {
+//      0%{
+//         color: transparent;
+//      }
  
-     85%{
-        color: transparent;
-     }
- }
+//      85%{
+//         color: transparent;
+//      }
+//  }
 
+ // Медия запрос__________________________________________________________________________
 
+ // 575px
 @media screen and (max-width: 575px) {
     .home__content {
         letter-spacing: 3px;
@@ -76,7 +77,6 @@
 
     .home__title {
         position: relative;
-        font-size: 12px;
         animation: home-title 3s 1;
     }
 

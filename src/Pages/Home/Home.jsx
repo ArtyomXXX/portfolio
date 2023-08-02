@@ -11,8 +11,8 @@ function Home() {
                         <source type="video/mp4" preload="auto" src={Home_bg_video}/>
                     </video>
                     <div className={styles["home__content"]}>
-                        <h1 className={styles["home__title"]}>My name is Ambartsumyan Artyom</h1>
-                        <h1 className={styles["home__subtitle"]}>I'm a Frontend Developer.</h1>
+                        <h1 className={styles["home__title"]}>Добро пожаловать!</h1>
+                        {/* <h1 className={styles["home__subtitle"]}></h1> */}
                     </div>
                     {/* <ScrollUp /> */}
             </div>
