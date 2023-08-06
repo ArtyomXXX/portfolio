@@ -1,4 +1,4 @@
-@use '../../scssCommonFile/mixins.scss' as style;
+@use '../mixins/mixins.scss' as style;
 
 .project {
     display: flex;
@@ -21,6 +21,7 @@
         width: 100%;
         height: 250px;
         border: 2px solid #808080;
+        border-radius: 10px;
         margin-left: 10px;
     }
     &:last-child {margin: 0;}

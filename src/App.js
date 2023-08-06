@@ -1,21 +1,23 @@
 import React from "react";
-import Header from './Components/Header/Header';
-import Home from './Pages/Home/Home';
-import About from './Pages/About/About';
-import Skills from './Pages/Skills/Skills';
-import Portfolio from './Pages/Portfolio/Portfolio';
-import Contact from './Pages/Contact/Contact.jsx';
+import Header from './Components/Header';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Skills from './Pages/Skills';
+import Portfolio from './Pages/Portfolio';
+import Contact from './Components/Footer';
 
-function App() { 
+function App() {
   return (
-    <React.Fragment>
-        <Header />
-        <Home />
-        <About />
-        <Skills />
-        <Portfolio />
-        <Contact />
-    </React.Fragment>
+    <div className="page">
+      <React.Fragment>
+          <Header />
+          <Home />
+          <About />
+          <Skills />
+          <Portfolio />
+          <Contact />
+      </React.Fragment>
+    </div>
   );
 }
 

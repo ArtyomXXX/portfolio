@@ -1,3 +1,3 @@
 # Portfolio
 
-## Ссылка: [Посмотреть](https://artyomxxx.github.io/business-card/)
+## Ссылка: на [GitHub Pages](https://artyomxxx.github.io/business-card/)

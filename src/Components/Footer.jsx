@@ -1,15 +1,14 @@
 import React from 'react';
-import img from '../../Images/3dCharacter.png'
-import styles from './Contact.module.scss';
+import img from '../Images/3dCharacter.png';
 
 function Contact() {
     return (
         <footer className="section" id="contact">
             <div className="container">
-                <div className={styles["contact"]}>
-                    <div className={styles["contact__inner"]}>
+                <div className="contact">
+                    <div className="contact__inner">
                         {/* Desktop версия ________________________________________*/}
-                        <div className={styles["contact__item"]}>
+                        <div className="contact__item">
                             <ul>
                                 <h2>Контакты для связи:</h2>
                                 <ul>
@@ -27,7 +26,7 @@ function Contact() {
                             </ul>
                         </div>
                         {/* Мобильная версия ________________________________________*/}
-                        <div className={styles["contact__item--mobile"]}>
+                        <div className="contact__item--mobile">
                             <div>
                                 <h2>Контакты для связи:</h2>
                                 <p><span>Телефон:&nbsp;&nbsp;</span><a href="tel:+79284467650">+7(928)446-76-50</a></p>
@@ -41,7 +40,7 @@ function Contact() {
                             </div>
                         </div>
                         {/* Мобильная версия под ширину экрана 280px ________________________________________*/}
-                        <div className={styles["contact__item--mobile-second"]}>
+                        <div className="contact__item--mobile-second">
                             <div>
                                 <h2>Контакты для связи:</h2>
                                 <p><span>Тел:&nbsp;&nbsp;</span><a href="tel:+79284467650">+7(928)446-76-50</a></p>
@@ -54,7 +53,7 @@ function Contact() {
                                 <p><a href="https://drive.google.com/file/d/1sAL44cZgE3wSlguGXtpxU-kbDHN9WtwD/view?usp=sharing" target="_blank" rel="noreferrer">Посмотреть сохранённую копию</a></p>
                             </div>
                         </div>
-                        <div className={styles["contact__item"]}>
+                        <div className="contact__item">
                             <img src={img} alt=""/>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-@use '../../scssCommonFile/mixins.scss' as style;
+@use '../mixins/mixins.scss' as style;
 
 .about {
     display: flex;
@@ -31,6 +31,17 @@
             height: 400px;
             // animation: ava-bg 3s infinite alternate;
         }
+    }
+}
+
+.resume__link {
+    font-size: clamp(10px, 5vw, 20px);
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(0, 255, 247);
+        border-bottom: 2px solid rgb(0, 255, 247);
     }
 }
 
@@ -89,6 +100,14 @@
         }
     }
 }
+
+// 762px
+@media screen and (max-width: 762px) {
+    .resume {
+        text-align: center;
+    }
+}
+
 // 500px
 @media screen and (max-width: 500px) {
     .about__content {

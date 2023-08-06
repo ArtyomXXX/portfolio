@@ -1,5 +1,5 @@
 .header {
-    padding-top: 30px;
+    padding: 20px 0;
     position: absolute;
     top: 0;
     right: 0;
@@ -11,43 +11,57 @@
         justify-content: space-between;
         align-items: center;
     }
-    &__brand {
+    &__logo {
         font-size: 20px;
         font-weight: 700;
         font-family: fantasy;
-        &>a {
-            width: 100%;
-            padding: 0 10px;
-            border-top: 3px solid transparent;
-            border-bottom: 3px solid transparent;
-            border-right: 3px solid #BB9A60;
-            border-left: 3px solid #BB9A60;
-            animation: header-brand 5s 1;
-        }
+        padding: 0 10px;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-right: 3px solid #f0c272;
+        border-left: 3px solid #f0c272;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        animation: header-brand 5s 1;
     }
+}
+
+.header.active {
+    position: fixed;
+    background-color: #000000;
 }
 
 .nav {
     display: flex;
+    justify-content: center;
 
-    &__item {
-        margin: 0 15px;
-    }
     &__link {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-transform: uppercase;
+        font-size: clamp(5px, 3vw, 16px);
         font-weight: 700;
-        width: 100%;
+        margin-right: 15px;
         padding-bottom: 5px;
         border-bottom: 3px solid transparent;
+        border-radius: 10px;
         cursor: pointer;
         transition: linear .1s;
         animation: nav-on 5s 1;
+
+        &:last-child{
+            margin-right: 0;
+        }
         &:hover {
-            color: #BB9A60;
-            border-color: #BB9A60;
+            color: #f0c272;
         }
     }
+}
+
+.nav__link.active, .nav__link.hover {
+    color: #ffffff;
+    border-color: #f0c272;
 }
 
 @keyframes header-brand {
@@ -103,5 +117,6 @@
 // Медия запрос__________________________________________________________________________
 
 @media screen and (max-width: 640px) {
-   .nav {display: none;}
+   .header__logo {display: none;}
+   .nav {width: 100%;}
 }

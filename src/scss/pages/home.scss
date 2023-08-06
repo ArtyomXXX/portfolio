@@ -43,19 +43,19 @@
     z-index: -1;
  }
  
- @keyframes home-title {
-     0%{
+@keyframes home-title {
+    0%{
         color: #000000;
-     }
-     30%{
+    }
+    30%{
         color: #ffffff;
         letter-spacing: 55px;
-     }
-     85%{
+    }
+    85%{
         color: #ffffff;
         letter-spacing: 5px;
-     }
- }
+    }
+}
  
 //  @keyframes home-subtitle {
 //      0%{
@@ -69,8 +69,26 @@
 
  // Медия запрос__________________________________________________________________________
 
- // 575px
-@media screen and (max-width: 575px) {
+// 1100px
+@media screen and (max-width: 1350px) {
+    @keyframes home-title {
+        0%{
+            color: #000000;
+        }
+        30%{
+            color: #ffffff;
+            letter-spacing: 30px;
+        }
+        100%{
+            color: #ffffff;
+            letter-spacing: 5px;
+        }
+    }
+}
+
+
+// 940px
+@media screen and (max-width: 940px) {
     .home__content {
         letter-spacing: 3px;
     }
@@ -83,16 +101,22 @@
     @keyframes home-title {
         0% {
             color: #000000;
-            margin-left: -250px;
+            position: relative;
+            top: 0;
+            left: -200px;
         }
 
-        30% {
-            margin-left: 0;
+        50% {
+            position: relative;
+            top: 0;
+            left: 0;
         }
 
-        85% {
+        100% {
             color: #fffefe;
-            margin-left: 0;
+            position: relative;
+            top: 0;
+            left: 0;
         }
     }
 }
