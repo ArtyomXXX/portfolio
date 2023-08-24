@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import { BrowserRouter } from 'react-router-dom';
+import { NavHashLink as Link } from 'react-router-hash-link';
 
 function Header() {
     const [navBar, setNavBar] = useState(false);
@@ -15,19 +16,21 @@ function Header() {
    window.addEventListener('scroll', changeBackground);
 
     return (
-        <header className={navBar ? "header active" : "header"}>
-            <div className="container">
-                <div className="header__inner">
-                    <div className="header__logo">A.Artyom</div>
-                    <nav className="nav">
-                        <Link className="nav__link" to="about" spy={true} offset={50} smooth={true} duration={100}><nobr>Обо мне</nobr></Link>
-                        <Link className="nav__link" to="skills" spy={true} offset={50} smooth={true} duration={100}>Навыки</Link>
-                        <Link className="nav__link" to="portfolio" spy={true} offset={50} smooth={true} duration={100}>Портфолио</Link>
-                        <Link className="nav__link" to="contact" spy={true} offset={50} smooth={true} duration={100}>Контакты</Link>
-                    </nav>
+        <BrowserRouter>
+            <header className={navBar ? "header active" : "header"}>
+                <div className="container">
+                    <div className="header__inner">
+                        <div className="header__logo">A.Artyom</div>
+                        <nav className="nav">
+                            <Link className="nav__link" to="#about" exact><nobr>Обо мне</nobr></Link>
+                            <Link className="nav__link" to="#skills">Навыки</Link>
+                            <Link className="nav__link" to="#portfolio">Портфолио</Link>
+                            <Link className="nav__link" to="#contact">Контакты</Link>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
+        </BrowserRouter>
     );
 }
 

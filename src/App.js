@@ -1,5 +1,5 @@
 import React from "react";
-import Header from './Components/Header';
+// import Header from './Components/Header';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Skills from './Pages/Skills';
@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="page">
       <React.Fragment>
-          <Header />
           <Home />
           <About />
           <Skills />
