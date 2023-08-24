@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/business-card/static/css/main.62a31306.css",
-    "main.js": "/business-card/static/js/main.7265abf4.js",
-    "static/js/787.bc412fff.chunk.js": "/business-card/static/js/787.bc412fff.chunk.js",
-    "static/media/Home-bg_video.mp4": "/business-card/static/media/Home-bg_video.b8fb85e68b759f140e21.mp4",
-    "static/media/3dCharacter.png": "/business-card/static/media/3dCharacter.1a987e7b66153fed6d9f.png",
-    "static/media/Comments.jpeg": "/business-card/static/media/Comments.dfb3710832eaf103ec7e.jpeg",
-    "static/media/Conquest.jpeg": "/business-card/static/media/Conquest.3bd8f3392a3a32834353.jpeg",
-    "static/media/MoGo.jpg": "/business-card/static/media/MoGo.8bcae0d947dff1eae0ea.jpg",
-    "static/media/photo.jpg": "/business-card/static/media/photo.daa8bc857969cbc71590.jpg",
-    "static/media/GithubSearch.jpeg": "/business-card/static/media/GithubSearch.ca5c289df2c41e9f4f4a.jpeg",
-    "index.html": "/business-card/index.html",
-    "main.62a31306.css.map": "/business-card/static/css/main.62a31306.css.map",
-    "main.7265abf4.js.map": "/business-card/static/js/main.7265abf4.js.map",
-    "787.bc412fff.chunk.js.map": "/business-card/static/js/787.bc412fff.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.2e991ce3.css",
+    "main.js": "/portfolio/static/js/main.c854e5a2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Home-bg_video.mp4": "/portfolio/static/media/Home-bg_video.b8fb85e68b759f140e21.mp4",
+    "static/media/3dCharacter.png": "/portfolio/static/media/3dCharacter.1a987e7b66153fed6d9f.png",
+    "static/media/Comments.jpeg": "/portfolio/static/media/Comments.dfb3710832eaf103ec7e.jpeg",
+    "static/media/Conquest.jpeg": "/portfolio/static/media/Conquest.3bd8f3392a3a32834353.jpeg",
+    "static/media/MoGo.jpg": "/portfolio/static/media/MoGo.8bcae0d947dff1eae0ea.jpg",
+    "static/media/photo.jpg": "/portfolio/static/media/photo.daa8bc857969cbc71590.jpg",
+    "static/media/GithubSearch.jpeg": "/portfolio/static/media/GithubSearch.ca5c289df2c41e9f4f4a.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.2e991ce3.css.map": "/portfolio/static/css/main.2e991ce3.css.map",
+    "main.c854e5a2.js.map": "/portfolio/static/js/main.c854e5a2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62a31306.css",
-    "static/js/main.7265abf4.js"
+    "static/css/main.2e991ce3.css",
+    "static/js/main.c854e5a2.js"
   ]
 }
