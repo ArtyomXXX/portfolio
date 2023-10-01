@@ -1,4 +1,4 @@
-@use '../mixins/mixins.scss' as style;
+@use '../mixins/mixins.scss'as style;
 
 .project {
     display: flex;
@@ -9,14 +9,23 @@
     @include style.card-style;
 
     &__title {
-        font-size: clamp(10px, 5vw , 24px);
+        font-size: clamp(10px, 5vw, 24px);
+        margin-bottom: 10px;
     }
+
     &__content {
         width: 50%;
-        font-size: clamp(10px, 5vw, 18px)
+        font-size: clamp(10px, 5vw, 18px);
     }
-    &__stack {margin-bottom: 20px;}
-    &__description {margin-bottom: 30px;}
+
+    &__stack {
+        margin-bottom: 20px;
+    }
+
+    &__description {
+        margin-bottom: 30px;
+    }
+
     &__img {
         width: 100%;
         height: 250px;
@@ -24,10 +33,14 @@
         border-radius: 10px;
         margin-left: 10px;
     }
-    &:last-child {margin: 0;}
+
+    &:last-child {
+        margin: 0;
+    }
 }
 
 .deploy-btn {
+    display: inline-block;
     margin-right: 20px;
     padding: 10px 20px;
     font-size: 18px;
@@ -36,10 +49,12 @@
     background-image: linear-gradient(135deg, #0c416d 10%, #60aabb 40%, #6d3eda 80%);
     border: 1px solid transparent;
     border-radius: 20px;
+
     &:hover {
         background-image: linear-gradient(135deg, #2c6d0c 10%, #3ae3a2 40%, #30ae54 80%);
     }
 }
+
 .source-btn {
     font-size: 18px;
     font-weight: 700;
@@ -58,9 +73,17 @@
 // 860px
 @media screen and (max-width: 860px) {
     .project {
-        &__content {width: 100%;}
-        &__title {margin-bottom: 5px;}
-        &__img {display: none;}
+        &__content {
+            width: 100%;
+        }
+
+        &__title {
+            margin-bottom: 5px;
+        }
+
+        &__img {
+            display: none;
+        }
     }
 }
 
@@ -68,14 +91,19 @@
 @media screen and (max-width: 400px) {
     .project {
         padding: 30px 10px;
-        &__stack, &__description {margin-bottom: 20px;}
+
+        &__stack,
+        &__description {
+            margin-bottom: 20px;
+        }
     }
-    
+
     .deploy-btn {
         display: block;
         margin: 0 0 20px;
         font-size: 15px;
     }
+
     .source-btn {
         display: block;
         font-size: 15px;

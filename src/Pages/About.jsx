@@ -15,11 +15,11 @@ function About() {
                     </div>
                     <div className="about__content">
                             <h1>Амбарцумян Артём</h1>
-                            <h2>Junior Frontend-разработчик</h2>
-                            <br />
+                            <h2>Junior Frontend Developer</h2>
+                            {/* <br />
                             <p><span>Образование:</span> Бакалавр</p>
                             <p>РАУ - Российско-Армянский Университет</p>
-                            <p>Факультет: Прикладная математика и информатика</p>
+                            <p>Факультет: Прикладная математика и информатика</p> */}
                             <br />
                             <div className="resume">
                                 <Link className="resume__link" to="contact" smooth={true} duration={100}>&#8594; РЕЗЮМЕ &#8592;</Link>
