@@ -17,7 +17,7 @@ return (
                 <div className="project__content">
                     <h1 className="project__title">Burgers</h1>
                     <p className="project__stack">Стек: HTML5 + SCSS + TypeScript + angular</p>
-                    <p className="project__description">Описание проекта:</p>
+                    {/* <p className="project__description">Описание проекта:</p> */}
                     <div className='t'>
                         <a href="https://artyomxxx.github.io/burgers/" className="deploy-btn" target="blank">Посмотреть</a>
                         <a href="https://github.com/ArtyomXXX/burgers" className="source-btn" target="blank">Перейти в GitHub</a>
@@ -32,9 +32,9 @@ return (
                 <div className="project__content">
                     <h2 className="project__title">MOGO</h2>
                     <p className="project__stack">Стек: HTML5 + SCSS + JavaScript + Gulp</p>
-                    <p className="project__description">
+                    {/* <p className="project__description">
                         Описание проекта:
-                    </p>
+                    </p> */}
                     <div>
                         <a href="https://artyomxxx.github.io/MOGO/" className="deploy-btn" target="blank">Посмотреть</a>
                         <a href="https://github.com/ArtyomXXX/MOGO" className="source-btn" target="blank">Перейти в GitHub</a>
@@ -67,7 +67,7 @@ return (
                 <div className="project__content">
                     <h1 className="project__title">Страница <nobr>с комментариями</nobr>
                     </h1>
-                    <p className="project__stack">Стек: HTML5 + SCSS + JavaScript</p>
+                    <p className="project__stack">Стек: HTML5 + SCSS + JavaScript + prepros.config</p>
                     <p className="project__description">
                         Описание проекта: Проект представляет собой страницу блога с возможностью комментирования,
                         реализованную на чистом JavaScript.
@@ -85,10 +85,10 @@ return (
             <div className="project">
                 <div className="project__content">
                     <h1 className="project__title">Страница поиска репозиториев GitHub</h1>
-                    <p className="project__stack">Стек: HTML5 + SCSS + JavaScript</p>
-                    <p className="project__description">
+                    <p className="project__stack">Стек: HTML5 + SCSS + JavaScript + prepros.config</p>
+                    {/* <p className="project__description">
                         Описание проекта:
-                    </p>
+                    </p> */}
                     <div>
                         <a href="https://artyomxxx.github.io/Github-repos-search/" className="deploy-btn" target="blank">Посмотреть</a>
                         <a href="https://github.com/ArtyomXXX/Github-repos-search" className="source-btn" target="blank">Перейти в GitHub</a>
