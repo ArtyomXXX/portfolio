@@ -16,7 +16,7 @@ return (
             <div className="project">
                 <div className="project__content">
                     <h1 className="project__title">Burgers</h1>
-                    <p className="project__stack">Стек: HTML5 + SCSS + TypeScript + angular</p>
+                    <p className="project__stack">Стек: HTML5 + SCSS + TypeScript + Angular</p>
                     {/* <p className="project__description">Описание проекта:</p> */}
                     <div className='t'>
                         <a href="https://artyomxxx.github.io/burgers/" className="deploy-btn" target="blank">Посмотреть</a>

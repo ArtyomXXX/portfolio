@@ -6,9 +6,9 @@ function About() {
     return (
         <section className="section section-about" id="about">
             <div className="container">
-                <div className="section__header">
+                {/* <div className="section__header">
                     <h1 className="section__title">Обо мне</h1>
-                </div>
+                </div> */}
                 <div className="about">
                     <div className="about__img">
                             <img src={Photo} alt="" />
